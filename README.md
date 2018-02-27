@@ -1,7 +1,8 @@
 # nutribot
 nodejs + react for nutrition site
 
-cd download_location_for_this   <br/>
-npm i                  <br/>
-npm run build    <br/>
-npm start     # build + run   <br/>
+1. cd download_location_for_this   <br/>
+2. npm i                  <br/>
+3. npm start    <br/>
+4. go to http://localhost:3000
+
