@@ -10,6 +10,10 @@ var categories = require('./routes/categories');
 
 var app = express();
 
+const DbConnection = require('./app/db/DbConnection');
+
+DbConnection.toDb('nutribot'); 
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
